@@ -1,0 +1,35 @@
+
+a) Demonstrate the working of the "dup" system call
+
+b) Demonstrate the working of the "close" system call. What would
+   happen if you try to read from a file descriptor which has been
+   closed?
+
+c) Open a file in the parent process; create a child process by
+   calling "fork". Can you use the same file descriptor in the
+   child also? Experiment.
+
+d) Find out the minimum value of the file descriptor returned by
+   "open"? 
+
+e) What will happen if you open a file twice like this:
+
+    int fd1, fd2;
+
+    fd1 = open("abc", O_RDONLY);
+    fd2 = open("abc", O_RDONLY);
+
+  experiment with reading from both descriptors. What do you
+  observe?
+
+f) Is there any limit on the number of times you can call "open"
+   in a program. Find out experimentally.
+
+g) Three file descriptors - 0, 1, 2 are always "open" by default
+   in a C program. Experiment and find out more about the utility
+   of these descriptors.
+
+h) Find out how "lseek" works by writing one or two small test
+   programs.
+
+  

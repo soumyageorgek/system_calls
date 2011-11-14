@@ -1,0 +1,44 @@
+Those who are doing systems stuff:
+
+Please write small programs to understand the working of the following syscalls:
+
+a) fork
+
+b) exec  (exec is a family of calls: there are calls like execle, execlp etc ... try any one)
+
+c) open, read, write, close
+
+d) kill
+
+-------------------------------
+
+Write the following programs:
+
+a) A program which will read a process id from the keyboard and kills that process
+
+b) A program which reads  a process id from the commandline and kills that process
+
+c) A program which reads a file name from the commandline and deletes that file
+
+d) A program which reads a name from the commandline and creates a directory with that name
+
+e) A program which reads a user name from the commandline and prints the user id
+
+f) A simple file copy program using open/read/write sys calls
+
+
+A bit more advanced stuff
+---------------------------------------
+
+a) Study the working of the "dup" syscall. How does it help you implement I/O redirection
+
+b) Study the working of the "signal" function.
+
+ 
+Please create a github repo and push the code that you write.
+
+Please make sure that you finish these exercises by Monday.
+
+Once you finish these, you can start studying the "ptrace" call.
+
+
